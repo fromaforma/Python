@@ -1,0 +1,14 @@
+from datetime import date
+atua=date.today().year
+nasc=int(input('escreva a sua data de nasciimento:'))
+calc=atua-nasc
+if calc<=9:
+    print('a sua classe é MIRIM')
+elif calc<=14:
+    print('você é da classe INFANTIL')
+elif calc<=19:
+    print('você é da classe JUNIOR')
+elif calc<=25:
+    print('você é da classe SÊNIOR')
+else:
+    print('a sua classe é MASTER')
