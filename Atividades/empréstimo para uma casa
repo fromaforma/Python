@@ -1,0 +1,11 @@
+valc=float(input('escreva o valor da casa:'))
+sala=float(input('escreva o seu salário:'))
+anos=float(input('escreva em quantos anos voccê deseja pagar:'))
+prest=valc/(anos*12)
+mini=sala*30/100
+print('para pagar a casa de R${:.2f} em {}anos'.format(valc,anos))
+print('a prestação será de R${:.2f}'.format(prest))
+if prest<=mini:
+    print('o emprestimo será depositado e será no valor de {}'.format(prest))
+else:
+    print('você não tem o minimo suficiente para conseguir')
