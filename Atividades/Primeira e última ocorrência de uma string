@@ -1,0 +1,4 @@
+nome=str(input('escreva a frase desejada:')).upper()
+print('a quantia de vezes que a letra A aparece nesta frase é igual á:{}'.format(nome.count('A')))
+print('a primeira vez que a letra a aparece nesta frase é:{}'.format(nome.find('A')))
+print('e a ultima vez na qual ele aparece é: {}'.format(nome.rfind('A')+1))
