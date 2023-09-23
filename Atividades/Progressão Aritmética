@@ -1,0 +1,6 @@
+primeiro=int(input('escreva qual o primeiro termo você deseja:'))
+razao=int(input('qual é a razão na qual você deseja aplicar:'))
+ultimo=primeiro+(10-1)*razao
+for c in range(primeiro,ultimo,razao):
+    print('{}'.format(c),end=' -> ')
+print('fim')
