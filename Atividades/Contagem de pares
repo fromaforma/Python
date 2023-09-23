@@ -1,0 +1,4 @@
+#coloquei o 2 para economizar a quantidade de voltas que ele dá.
+for c in range (0,51,2):
+    if c%2==0:
+        print(c, end=' ')
