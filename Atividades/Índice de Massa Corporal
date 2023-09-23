@@ -1,0 +1,13 @@
+peso=float(input('escreva qual o seu peso:'))
+altu=float(input('escreva qual a sua altura:'))
+imc=peso/(altu)**2
+if imc<=18.5:
+    print('você está abaixo do peso')
+elif imc>=18.6 and imc<=25:
+    print('parabens voccê está em seu peso ideal ')
+elif imc>=25.1 and imc<=30:
+    print('infelizmente você está de sobrepeso')
+elif imc>=30.1 and imc<=40:
+    print('infelizmente você está obeso cuidado')
+else:
+    print('sinto informar porem você está com obesidade morbida ')
