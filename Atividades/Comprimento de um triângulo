@@ -1,0 +1,7 @@
+r1=float(input('escreva o primeiro comprimento '))
+r2=float(input('escreva o segundo comprimento '))
+r3=float(input('escreva o terceiro comprimento '))
+if r1<r2+r3 and r2<r1+r3 and r3<r1+r2:  
+    print('os segmentos acima podem formar um tringulo!')
+else :
+    print('os segmentos acima não podem formar um triangulo!')
