@@ -1,0 +1,7 @@
+sala=float(input('escreva a quantia do seu salario:'))
+if sala>1250.00:
+    calc=sala+(sala*15/100)
+    print('você recebera um almento de 10% na qual o seu salario total ficará igual á: {} '.format(calc))
+else :
+    cacula=sala+(sala*10/100)
+    print('você recebera um almento de 15% na qual o seu salario total ficará igual á: {} '.format(cacula))
