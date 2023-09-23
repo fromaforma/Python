@@ -1,0 +1,9 @@
+av1=float(input('escreva a sua nota na primeira prova:'))
+av2=float(input('escreva a sua nota na segunda prova:'))
+media=(av1+av2)/2
+if media<5.0:
+    print('reprovado, a sua nota foi abaixo de 5 e a sua metá foi de:{}'.format(media))
+elif media>=5  and  media<=6.9:
+    print('infelizmente você está de recuperação,e a sua média foi de:{}'.format(media))
+else:
+    print('parabens você foi aprovado,e a sua média é de:{}'.format(media))
