@@ -1,0 +1,23 @@
+pren=float(input('escreva qual o preço normal do item:'))
+cond=int(input('''
+1-dinheiro/cheque
+2-cartão
+escreva dentre as opções abaixo qual você prefere:         
+'''))
+if cond==1:
+    valf=pren-(pren*10/100)
+    print('o preço que antes era {} foi para {} reais;'.format(pren,valf))
+elif cond==2:
+    divi=int(input('''
+    1-a vista no cartão
+    2-2x no cartão
+    3-3x ou maisno cartão
+                '''))
+    if divi==1:
+        valf=pren-(pren*5/100)
+        print('o valor que era de {} ficou {} reais;'.format(pren,valf))
+    elif divi==2:
+        print('o valor permanecerá o mesmo')
+    else:
+        valf=pren-(pren*20/100)
+        print('o valor que antes era {} ficou {} reais'.format(pren,valf))
