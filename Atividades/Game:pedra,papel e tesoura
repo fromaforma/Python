@@ -1,0 +1,31 @@
+from random import randint
+print('olá eu sou um programa para jogar pedra papel ou tesoura')
+itens=('pedra','papel','tesoura')
+esco=randint(0,2)
+usua=int(input('''
+    [0]pedra
+    [1]papel
+    [2]tesoura
+    escolha entre pedra,papel ou tesoura que eu irei selecionar qual eu irei escolher:'''))
+
+if esco==0:
+    if usua==0:
+        print('esmpate usuario{} computador{}'.format(usua,esco))
+    elif usua==1:
+        print('o usuario ganhou, usuario{} computador{}'.format(usua,esco))
+    elif usua==2:
+        print('o computador ganhou, usuario{} computador{}'.format(usua,esco))
+elif esco==1:
+    if usua==0:
+        print('o usuario ganhou{} computador{}'.format(usua,esco))
+    elif usua==1:
+        print('empatou, usuario{} computador{}'.format(usua,esco))
+    elif usua==2:
+        print('o computador ganhou, usuario{} computador{}'.format(usua,esco))
+elif esco==2:
+    if usua==0:
+        print('o usuario ganhou{} computador{}'.format(usua,esco))
+    elif usua==1:
+        print('o computador ganhou, usuario{} computador{}'.format(usua,esco))
+    elif usua==2:
+        print('empate, usuario{} computador{}'.format(usua,esco))
