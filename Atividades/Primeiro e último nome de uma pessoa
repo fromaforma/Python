@@ -1,0 +1,4 @@
+nome=str(input('escreva o seu nome completo: ')).strip().split()
+print('o seu primeiro nome é: {}'.format(nome[0]))
+print('enquanto o seu ultimo nome é igual á: {}'.format(nome[len(nome)-1]))
+print(nome)
