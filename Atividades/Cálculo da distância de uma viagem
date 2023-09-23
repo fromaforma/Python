@@ -1,0 +1,11 @@
+dist=int(input('escreva a distancia total da viagem na qual você tera que fazer em km/h:'))
+if dist<=200:
+    passaporte=dist*0.50
+    print('a sua distancia total é igual á:{}'.format(dist))
+    print('o valor da taxa é igual a 0,50 centavos')
+    print('o valor na qual terá que pagar nesta  viagem é igual á:{}'.format(passaporte))
+else:
+    passap=dist*0.45
+    print('a sua distancia total é igual á:{}'.format(dist))
+    print('o valor da taxa é igual a 0,45 centavos')
+    print('o valor na qual terá que pagar nesta viagem é igual á:{}'.format(passap))
