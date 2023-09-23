@@ -1,0 +1,7 @@
+nume=int(input('escreva o valor para ver se ele é par ou impar:'))
+cont=(nume/2)%1
+print(cont)
+if cont==0.5:
+    print('este número é impar')
+else :
+    print('este número é par')
