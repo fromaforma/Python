@@ -1,0 +1,12 @@
+from time import sleep 
+velo=int(input('escreva a sua velocidade atual:'))
+print('processando...')
+sleep(2)
+if velo>=81:
+    print('''você possivelmente recebera uma carta de adverencia pelos correios 
+    pela ultrapassagem da velocidade máximm,uma vez que a sinalização só permite 
+    uma velocidade igual ou inferior que 80km/h''')
+    multa=(velo-80)*7
+    print('e o valor da multa na qual você tera de pagar é igual á:{}'.format(multa))
+else :
+    print('parabens você não ultrapassou a velocidade maxima do local')
