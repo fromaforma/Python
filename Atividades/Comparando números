@@ -1,0 +1,8 @@
+num1=int(input('escreva o primeiro valor desejado:'))
+num2=int(input('escreva o segundo valor desejado:'))
+if num1>num2:
+    print('o maior número entre estes dois é o {}'.format(num1))
+elif num2>num1:
+    print('o maior número entre estes dois é o {}'.format(num2))
+else:
+    print('tanto o pirmeiro número {} quanto o segundo número são iguais'.format(num1,num2))
