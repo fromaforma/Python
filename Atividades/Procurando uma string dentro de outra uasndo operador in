@@ -1,0 +1,7 @@
+print('olá eu irei olhar se tem o nome silva em seu nome')
+nome=str(input('escreva o seu nome completo:'))
+comp=str('silva')
+if comp in nome:
+    print('o seu nome tem silva')
+else:
+    print('o seu nome não contem santos como sobrenome')
