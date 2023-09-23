@@ -1,0 +1,14 @@
+reta1=float(input('escreva o comprimento da primeira reta:'))
+reta2=float(input('escreva o comprimento da segunda reta:'))
+reta3=float(input('escreva o comprimento da terceira reta:'))
+if reta1<reta2+reta3 and reta2<reta1+reta3 and reta3<reta1+reta2:  
+    print('os segmentos acima podem formar um tringulo!')
+    if reta1==reta2==reta3:
+        print('este triangulo é equilatero')
+    elif reta1!=reta2!=reta3:
+        print('este é um triangulo escaleno')
+    else:
+        print('este é um triangulo isóceles')
+
+else:
+    print('os segmentos acima não podem formar um triangulo!')
